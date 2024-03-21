@@ -152,11 +152,11 @@
             <option :value="false">
               {{ $t('settings.cacheLimit.none') }}
             </option>
-            <option :value="512"> 500MB </option>
-            <option :value="1024"> 1GB </option>
-            <option :value="2048"> 2GB </option>
             <option :value="4096"> 4GB </option>
             <option :value="8192"> 8GB </option>
+            <option :value="16384"> 16GB </option>
+            <option :value="32768"> 32GB </option>
+            <option :value="65536"> 64GB </option>
           </select>
         </div>
       </div>
